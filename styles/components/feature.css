@@ -1,0 +1,187 @@
+.feature__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.feature__title{
+    font-size: var(--size-3xl);
+}
+
+.feature__subhead{
+    font-size: var(--size-2xl);
+}
+
+.feature__subhead_description{
+    font-size: var(--size-xl);
+}
+
+
+.featured__subhead__container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 0.5rem;
+}
+
+.feature__subhead__description{
+    font-size: var(--size-lg);
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .feature__title{
+        font-size: var(--size-3xl);
+    }
+    
+    .feature__subhead{
+        font-size: var(--size-2xl);
+    }
+    
+    .feature__subhead_description{
+        font-size: var(--size-xl);
+    }
+} 
+
+/* sm */
+@media (min-width: 640px) {
+    .feature__title{
+        font-size: var(--size-4xl);
+    }
+    
+    .feature__subhead{
+        font-size: var(--size-3xl);
+    }
+    
+    .feature__subhead_description{
+        font-size: var(--size-2xl);
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .feature{
+        display: none;
+    }
+
+    .feature__title{
+        font-size: var(--size-5xl);
+    }
+    
+    .feature__subhead{
+        font-size: var(--size-4xl);
+    }
+    
+    .feature__subhead_description{
+        font-size: var(--size-3xl);
+    }
+
+    .feature__subhead__description{
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .feature__title{
+        font-size: var(--size-6xl);
+    }
+    
+    .feature__subhead{
+        font-size: var(--size-5xl);
+    }
+    
+    .feature__subhead_description{
+        font-size: var(--size-4xl);
+    }
+
+    .feature__subhead__description{
+        font-size: var(--size-xl);
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .feature__subhead__description{
+        font-size: var(--size-2xl);
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+

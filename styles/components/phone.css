@@ -1,0 +1,138 @@
+.phone{
+    display: none;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.phone__right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.phone__left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* .phone__save__image{
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    border: red 1px solid;
+} */
+
+.phone__save{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 0.5rem;
+}
+
+.phone__compatible{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 0.5rem;
+}
+
+
+.phone__changes{
+    text-align: center;
+}
+
+.phone__compatible__svg{
+    height: 100px;
+    margin-right: 15px;
+}
+
+.phone__save__svg{
+    height: 100px;
+    margin-right: 5px;
+}
+
+.phone__save__svg_lg{
+    height: 100px;
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .phone{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+    }
+    
+    
+    .phone__right{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .phone__left{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    /* .phone__save__image{
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+        border: red 1px solid;
+    } */
+    
+    .phone__save{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 0.5rem;
+    }
+    
+    .phone__compatible{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 0.5rem;
+    }
+    
+    
+    .phone__changes{
+        text-align: center;
+    }
+    
+    .phone__compatible__svg{
+        height: 100px;
+        margin-right: 20px;
+    }
+    
+    .phone__save__svg{
+        height: 100px;
+        margin-left: 10px;
+    }
+    
+    .phone__save__svg_lg{
+        height: 100px;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

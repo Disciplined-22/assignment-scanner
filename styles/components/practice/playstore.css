@@ -1,0 +1,100 @@
+.playstore{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    place-items: center;
+}
+
+.playstore__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.appstore__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.playstore__head{
+    font-size: var(--size-xl);
+    text-align: center;
+}
+
+.playstore__subhead{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.playstore__ratings{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.playstore__compatible{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.playstore__userfriendly{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.playstore__ratings__image{
+    width: 200px;
+}
+
+.playstore__compatible__image{
+    width: 100px;
+}
+
+.playstore__userfriendly__image{
+    width: 200px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .playstore__head{
+        font-size: var(--size-3xl);
+}
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .playstore__content{
+        flex-direction: row;
+    }
+
+    .appstore__content{
+        flex-direction: row-reverse;
+    }
+
+    .playstore__subhead{
+        justify-content: center;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+
+

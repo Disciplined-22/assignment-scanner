@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"/>
+    <meta name="description" content="work" />
+    <meta name="keywords" content="web design, html, css, js" />
+    <title>Scan-B</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="styles/modern-normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/utils.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/components/about.css">
+    <link rel="stylesheet" href="styles/components/work.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="stylesheet" href="styles/components/mobile-nav.css">
+    <link rel="stylesheet" href="styles/components/feature.css">
+    <link rel="stylesheet" href="styles/components/phone.css">
+    <link rel="stylesheet" href="styles/components/stats.css">
+    <link rel="stylesheet" href="styles/components/practice/playstore.css">
+    <link rel="stylesheet" href="styles/components/customer.css">
+    <link rel="stylesheet" href="styles/components/practice/slide.css">
+    
+    <body>
+    
+    <header class="header container">
+    <div class="logo">
+      <img src="pics/logo..png" alt="" class="logo__head">
+    </div>
+    
+    
+      <nav>
+        <ul class="header__menu" data-aos="fade-right">
+          <li>
+            <a class="header__link" href="#">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#">Appstore</a>
+          </li>
+          <li>
+            <a class="header__link" href="#">Playstore</a>
+          </li>
+
+          <li>
+            <a class="header__link" href="#">Contact</a>
+          </li>
+
+          <li class="header__line"></li>
+              
+          <li>
+            <a class="header__resume btn" href="#footer">Sign in</a>
+          </li>
+        </ul>
+        <button aria-label="mobile nav button" class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#featured">Appstore</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Playstore</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <a class="mobile-nav__btn btn" href="https://drive.google.com/file/d/1qCdYaByK2I60UbxK4kshukaSw7_xfEWh/view?usp=share_link" target="_blank">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- End of Mobile Navigation -->
+    <main>
+      <section class="hero container">
+        <img src="pics/logo..png" alt="" class="logo__header" data-aos="fade-right">
+        <h2 class="hero__subtitle">
+          Scan Business visiting cards with Higher accuracy 
+        </h2>
+        <p class="hero__description" data-aos="fade-left">
+          Scan-B allows you to scan physical business cards and transcribes them as contact records into your CRM, sales leads, or lead management software.
+        </p>
+        <a class="hero__btn btn" href="#contact" data-aos="fade-right">BOOK A DEMO</a>
+      </section>
+
+
+      <section class="feature container section">
+        <div class="feature__content">
+            <h1 class="feature__title">Features of our app</h1>
+            
+              <div class="featured__subhead__container">
+          
+                 <img src="svg/scanner_phone.svg" class="phone__compatible__svg" alt="phone-compatible-svg" data-aos="fade-right">
+              
+              <h2 class="feature__subhead">Scan visiting cards</h2>
+              <p class="feature__subhead_description">Scan unlimited visiting cards</p>
+            </div>
+            
+            <div class="featured__subhead__container">
+              <img src="svg/Accuracy-removebg-preview.svg" class="phone__compatible__svg" alt="" data-aos="fade-left">
+              <h2 class="feature__subhead">Highly accurate</h2>
+              <p class="feature__subhead_description">Scan-B provides 98% accuracy</p>
+            </div>
+
+              <div class="featured__subhead__container">
+                <img src="pics/Google_Contacts_icon.svg-removebg-preview.png" class="phone__save__svg" alt="save" data-aos="fade-right">
+              <h2 class="feature__subhead">Saves to contact</h2>
+              <p class="feature__subhead_description">Saves to contact automatically</p>
+              </div>
+
+              <div class="featured__subhead__container">
+              <img src="svg/phone-compatible.svg" class="phone__compatible__svg" alt="phone-compatible-svg" data-aos="fade-left">
+              <h2 class="feature__subhead">Compatible for all phones</h3>
+              <p class="feature__subhead_description"> Available on both Playstore and Appstore</p>
+            </div>
+        </div>
+      </section>
+
+      <section class="phone container section">
+        
+        <section class="phone__right">
+
+          <div class="phone__save">
+            <img src="svg/1save__contact1.svg" class="phone__save__svg_lg" alt="save__phone" data-aos="fade-right">
+            <h2 class="feature__subhead phone__changes">Saves to contact</h2>
+            <p class="feature__subhead__description">Saves to contact automatically </p>
+          </div>
+
+          <div class="phone__compatible phone__changes">
+            <img src="svg/phone-compatible.svg" class="phone__compatible__svg" alt="phone-compatible-svg" data-aos="fade-left">
+            <h2 class="feature__subhead">Compatible for all phones</h2>
+              <p class="feature__subhead__description">Scan-B is available on both Playstore and Appstore</p>
+          </div>
+
+        </section>
+        <section class="phone-middle">
+            <img src="pics/phone.png" alt="phone">
+
+        </section>
+        <section class="phone__left">
+          <div class="phone__save">
+            <img src="svg/scanner_phone.svg" alt="scanner__svg" class="phone__compatible__svg" data-aos="fade-right">
+            <h2 class="feature__subhead phone__changes">Scan visiting cards</h2>
+              <p class="feature__subhead__description">Scan unlimited visiting cards</p>
+          </div>
+
+          <div class="phone__compatible phone__changes">
+            <img src="svg/Accuracy-removebg-preview.svg" class="phone__compatible__svg" alt="" data-aos="fade-left">
+            <h2 class="feature__subhead">Highly accurate</h2>
+              <p class="feature__subhead__description">Scan-B provides 98% accuracy</p>
+
+          </div>
+        </section>
+      </section>
+
+      <section class="container section">
+        <h1 class="role-model" data-aos="fade-right">Customer feedback</h1>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <section class="customer__reviews container">
+
+                <section class="customer__reviews__image">
+                    <img src="pics/customer__pics/cristiano-ronaldo-portugal-5-june-2022.jpg" alt="Ronaldo" class="customer__image">
+                </section>
+        
+                <section class="customer__reviews__content">
+                    
+                  <div class="customer__bio">
+                    <h1 class="customer__name">Ronaldo</h1>
+                    <h3 class="customer__title">Football player</h3>
+                  </div>
+
+                    <p class="customer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse magni error? Expedita, doloribus porro? Optio unde assumenda debitis repellat sequi labore quibusdam placeat dicta ullam, accusamus velit possimus veniam.</p>
+                </section>
+        
+        
+        
+        </section>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+                  <section class="customer__reviews container">
+
+                <section class="customer__reviews__image">
+                    <img src="pics/customer__pics/eln musk.jpg" alt="Ronaldo" class="customer__image">
+                </section>
+        
+                <section class="customer__reviews__content">
+                    
+                  <div class="customer__bio">
+                    <h1 class="customer__name">Elon Musk</h1>
+                    <h3 class="customer__title">CEO of Twitter</h3>
+                  </div>
+                  
+                    <p class="customer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse magni error? Expedita, doloribus porro? Optio unde assumenda debitis repellat sequi labore quibusdam placeat dicta ullam, accusamus velit possimus veniam.</p>
+                </section>
+        
+        
+        
+        </section>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <section class="customer__reviews container">
+
+                <section class="customer__reviews__image">
+                  <img src="pics/customer__pics/stevewozanki.jpg" alt="" class="customer__image">
+                </section>
+        
+                <section class="customer__reviews__content">
+                    
+                  <div class="customer__bio">
+                    <h1 class="customer__name">Grant Cardone</h1>
+                    <h3 class="customer__title">Author</h3>
+                  </div>
+                  
+                    <p class="customer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse magni error? Expedita, doloribus porro? Optio unde assumenda debitis repellat sequi labore quibusdam placeat dicta ullam, accusamus velit possimus veniam.</p>
+                </section>
+        
+        
+        
+        </section>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+        </div>
+        
+</section>
+
+    <section class="stats container section">
+          <div class="stats__subhead">
+            <h2 class="stats__subhead1" data-aos="fade-top">Happy Customers</h2>
+                <h3 class="stats__subhead2" data-aos="fade-bottom">49875</h3>  
+          </div>
+
+          <div class="stats__subhead">
+            <h2 class="stats__subhead1" data-aos="fade-top">Playstore Downloads</h2>
+              <h3 class="stats__subhead2" data-aos="fade-bottom">1M+</h3>
+          </div>
+
+          <div class="stats__subhead">
+              <h2 class="stats__subhead1" data-aos="fade-top">Appstore Downloads</h2>
+                <h3 class="stats__subhead2" data-aos="fade-bottom">1.2M+</h3>
+          </div>
+
+      </section>
+     
+      
+
+
+      <section class="playstore container section"> <!-- 1st ratings -->
+        <h2 class="playstore__head" data-aos="fade-left">On Playstore</h2>
+
+        <div class="playstore__content">
+          
+          <section>
+            <div data-aos="fade-right">
+              <img src="pics/phone.png" alt="" class="priorex__image" data-aos="fade-right">
+            </div>
+          </section>
+ 
+          <section class="playstore__subhead">
+              <div class="playstore__ratings">
+                <img data-aos="fade-left" src="pics/Rating_stars_4.5.svg.png" alt="playstore__ratings__image" class="playstore__ratings__image">
+              <h2 data-aos="fade-right">4.8 Stars Ratings</h2>
+              </div>
+ 
+              <div class="playstore__compatible">
+                <img data-aos="fade-left" src="svg/phone-compatible.svg" alt="playstore__compatible__image" class="playstore__compatible__image"> 
+                <h2 data-aos="fade-right">Highly Compatible</h2>
+              </div>
+
+              <div class="playstore__userfriendly">
+                <img data-aos="fade-left" src="pics/user__friendlyy.png" alt="playstore__compatible__userfriendly" class="playstore__userfriendly__image">
+                <h2 data-aos="fade-right">Highly User-Friendly</h2>
+              </div>
+
+          </section>
+
+      </div>
+       
+    </section>  <!-- 1st ratings done  -->
+    
+
+      
+    <section class="playstore container section"> <!-- 2nd ratings start -->
+      <h2 data-aos="fade-right" class="playstore__head" data-aos="fade-left">On Appstore</h2>
+
+      <div class="appstore__content">
+        
+        <section>
+          <div data-aos="fade-right" class="priorex__img__container">
+            <img src="pics/phone.png" alt="" class="priorex__image">
+          </div>
+        </section>
+
+        <section class="playstore__subhead">
+            <div class="playstore__ratings">
+              
+              <img data-aos="fade-left" src="pics/Rating_stars_4.5.svg.png" alt="playstore__ratings__image" class="playstore__ratings__image">
+              <h2 data-aos="fade-right">4.8 Stars Ratings</h2>
+            </div>
+
+            <div class="playstore__compatible">
+              <img data-aos="fade-right" src="svg/phone-compatible.svg" alt="playstore__compatible__image" class="playstore__compatible__image">
+              <h2 data-aos="fade-left">Highly Compatible</h2>
+            </div>
+
+            <div class="playstore__userfriendly">
+              <img data-aos="fade-right" src="pics/user__friendlyy.png" alt="playstore__compatible__userfriendly" class="playstore__userfriendly__image">
+              <h2 data-aos="fade-left">Highly User-Friendly</h2>
+            </div>
+
+        </section>
+
+    </div>
+    
+  </section>  <!-- ratings done -->
+
+
+</main>
+
+  <footer class="footer section">
+  <section class="footer__main__content">
+    <section class="foot__content1">
+      <div class="scan-b">
+        <img src="pics/bottom-logo.png" alt="" class="logo__header">
+          <p class="scan-b__description" >
+            SCAN BUSINESS VISITING CARDS WITH HIGHER ACCURACY
+          </p>
+      </div>
+
+      <section class="about">
+      <div class="about__company">
+        <h1 class="about__company__head">Scan-B</h1>
+          <h4 class="about__company__subhead">About</h4>
+          <h4 class="about__company__subhead">Playstore</h4>
+          <h4 class="about__company__subhead">Appstore</h4>
+          <h4 class="about__company__subhead">Contact us</h4>
+      </div>
+
+      <div class="support">
+        <h1 class="about__company__head">Support</h1>
+          <h4 class="about__company__subhead" class="email">support@scanb.com</h4>
+
+      </div>
+      
+      <div class="legal">
+        <h1 class="about__company__head">Legal</h1>
+          <h4 class="about__company__subhead">Privacy Policy</h4>
+          <h4 class="about__company__subhead">Refund Policy</h4>
+          <h4 class="about__company__subhead">Terms & Conditions</h4>
+      </div>
+
+    </section>
+
+  </section>
+
+    
+    <section class="foot__content2">
+
+      <div class="social__links">
+        <img src="pics/social__links/fb.png" alt="">
+        <img src="pics/social__links/ig.png" alt="">
+        <img src="pics/social__links/tw.png" alt="">
+      </div>
+
+      <div>
+          <hr \ class="line">
+      </div>
+      
+      <div class="company__fullname">
+              <h1 class="company__fullname__content">ScanB Private Limited. All Rights Reserved.</h1>
+      </div>
+    </section>
+
+    
+
+  </section>
+
+</footer>
+
+    
+    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 1500,
+          once: true,
+        });
+      </script>
+
+      <script src="src/utils/mobile-nav.js"></script>
+      <script src="src/utils/dark-mode.js"></script>
+      <script src="src/utils/slide.js"></script>
+  </body>
+</html>
+ 
