@@ -5,6 +5,7 @@
     place-items: center;
     background-color: var(--clr-bg400);
     padding: 10% 5%;
+    text-align: center;
 }
 
 .stats__subhead{
